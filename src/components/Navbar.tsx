@@ -65,14 +65,24 @@ export const Navbar = () => {
               </motion.button>
             ))}
             <motion.a
-              href="https://nad.fun/tokens/0xB12b5B1a2e4b07106917637dc9f4a9d2A1D27777"
+              href="https://radardex.pro"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-full font-display font-semibold text-cockatoo-dark bg-cockatoo-yellow/80 hover:bg-cockatoo-yellow transition-all flex items-center gap-1"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              🚀 Buy $KATOO
+              🚀 Buy on RadarDex
+            </motion.a>
+            <motion.a
+              href="https://radardex.pro"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-full font-display font-semibold text-cockatoo-white bg-cockatoo-dark/80 hover:bg-cockatoo-dark transition-all flex items-center gap-1"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              📊 Chart
             </motion.a>
           </div>
 
@@ -84,7 +94,7 @@ export const Navbar = () => {
               onClick={() => scrollTo("cta")}
               className="hidden sm:flex text-xs sm:text-sm px-3 sm:px-4"
             >
-              Join Community
+              Follow on X
             </Button>
             
             {/* Mobile Menu Button */}
@@ -129,13 +139,23 @@ export const Navbar = () => {
                 <hr className="border-cockatoo-yellow/20 my-2" />
                 
                 <motion.a
-                  href="https://nad.fun/tokens/0xB12b5B1a2e4b07106917637dc9f4a9d2A1D27777"
+                  href="https://radardex.pro"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-3 rounded-xl font-display font-semibold text-cockatoo-dark bg-cockatoo-yellow/80 hover:bg-cockatoo-yellow transition-all flex items-center gap-2"
                   whileTap={{ scale: 0.98 }}
                 >
-                  🚀 Buy $KATOO
+                  🚀 Buy on RadarDex
+                </motion.a>
+
+                <motion.a
+                  href="https://radardex.pro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-3 rounded-xl font-display font-semibold text-cockatoo-white bg-cockatoo-dark/80 hover:bg-cockatoo-dark transition-all flex items-center gap-2"
+                  whileTap={{ scale: 0.98 }}
+                >
+                  📊 View Chart
                 </motion.a>
                 
                 <Button 
@@ -144,7 +164,7 @@ export const Navbar = () => {
                   onClick={() => scrollTo("cta")}
                   className="w-full mt-1"
                 >
-                  Join Community
+                  Follow on X
                 </Button>
               </div>
             </div>

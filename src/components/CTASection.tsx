@@ -161,7 +161,7 @@ export const CTASection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          Join the flock and make some noise. 🦜
+          Join the loudest flock on ARC Chain and make some noise. 🦜
         </motion.p>
 
         <motion.div
@@ -170,44 +170,55 @@ export const CTASection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <Button variant="hero" size="xl" className="group">
-            <Users className="w-5 h-5 group-hover:animate-bounce" />
-            Join Community
-          </Button>
           <motion.a
-            href="https://opensea.io/collection/cockatoocoin"
+            href="https://x.com/cockatoo_monad"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="hero" size="xl" className="group">
+              <Users className="w-5 h-5 group-hover:animate-bounce" />
+              Follow on X
+            </Button>
+          </motion.a>
+          <motion.a
+            href="https://radardex.pro"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button variant="playful" size="xl">
-              <ImageIcon className="w-5 h-5" />
-              Get NFT
+              <Volume2 className="w-5 h-5" />
+              Buy on RadarDex
             </Button>
           </motion.a>
-          <Button variant="blue" size="xl">
-            <Volume2 className="w-5 h-5" />
-            Make Noise
-          </Button>
+          <motion.a
+            href="https://radardex.pro"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="blue" size="xl">
+              <ImageIcon className="w-5 h-5" />
+              View Chart
+            </Button>
+          </motion.a>
         </motion.div>
 
-        {/* Social links */}
+        {/* Social links - X only */}
         <motion.div
           className="mt-16 flex items-center justify-center gap-8"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          {["Twitter", "Discord", "Telegram"].map((platform) => (
-            <motion.a
-              key={platform}
-              href="#"
-              className="font-display font-bold text-foreground/60 hover:text-foreground transition-colors"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {platform}
-            </motion.a>
-          ))}
+          <motion.a
+            href="https://x.com/cockatoo_monad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-display font-bold text-foreground/60 hover:text-foreground transition-colors text-2xl"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            𝕏 Follow Cockatoo on X
+          </motion.a>
         </motion.div>
 
         {/* Bottom NFT showcase */}

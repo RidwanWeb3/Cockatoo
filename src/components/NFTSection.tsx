@@ -60,18 +60,19 @@ export const NFTSection = () => {
             animate={isInView ? { scale: 1 } : {}}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            🎨 Cockatoo NFTs
+            🎨 Cockatoo NFTs • ARC Native
           </motion.span>
 
           <h2 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-6">
-            Your Identity.{" "}
+            Your On-Chain Identity.{" "}
             <span className="bg-gradient-to-r from-cockatoo-blue to-cockatoo-purple bg-clip-text text-transparent">
-              Your Access.
+              Your ARC Access.
             </span>
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            Cockatoo NFTs are more than art. They're your key to the ecosystem.
+            Cockatoo NFTs on ARC Chain are more than art. They're your
+            verifiable key to the entire ecosystem.
           </p>
         </motion.div>
 

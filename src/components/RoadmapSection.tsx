@@ -6,13 +6,13 @@ import { FloatingNFT, nftImages } from "./FloatingNFT";
 const phases = [
   {
     phase: "Phase 1",
-    title: "Foundation",
+    title: "ARC Foundation",
     icon: Rocket,
     items: [
-      "Token Launch",
-      "NFT Collection Drop",
-      "Community Building",
-      "Initial Partnerships",
+      "$KATOO Token Launch on ARC Chain",
+      "Cockatoo NFT Collection (ARC Native)",
+      "X Community Building",
+      "RadarDex Listing & Chart Integration",
     ],
     color: "from-cockatoo-yellow to-cockatoo-orange",
     status: "active",
@@ -96,19 +96,19 @@ export const RoadmapSection = () => {
             animate={isInView ? { scale: 1 } : {}}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            🗺️ Roadmap
+            🗺️ ARC Chain Roadmap
           </motion.span>
 
           <h2 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-6">
-            The Journey{" "}
+            The Journey Across{" "}
             <span className="bg-gradient-to-r from-cockatoo-yellow to-cockatoo-pink bg-clip-text text-transparent">
-              Ahead
+              ARC
             </span>
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            Follow the Cockatoo as it travels through milestones toward global
-            impact.
+            Follow the Cockatoo as it flies through ARC Chain milestones toward
+            global on-chain impact.
           </p>
         </motion.div>
 

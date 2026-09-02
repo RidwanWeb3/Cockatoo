@@ -92,19 +92,19 @@ export const ImpactSection = () => {
             animate={isInView ? { scale: 1 } : {}}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            🌍 Impact Zone
+            🌍 Impact on ARC Chain
           </motion.span>
 
           <h2 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-6">
-            Noise Creates{" "}
+            On-Chain Noise Creates{" "}
             <span className="bg-gradient-to-r from-cockatoo-pink via-cockatoo-purple to-cockatoo-green bg-clip-text text-transparent">
-              Change
+              Real Change
             </span>
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            Brand partnerships, sports sponsorship, and charitable giving - all
-            powered by Cockatoo.
+            Brand partnerships, sports sponsorship, and charitable giving —
+            fully transparent and verifiable on ARC Chain, powered by Cockatoo.
           </p>
         </motion.div>
 

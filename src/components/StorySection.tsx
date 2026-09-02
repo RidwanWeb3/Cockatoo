@@ -138,18 +138,19 @@ export const StorySection = () => {
             animate={isHeaderInView ? { scale: 1 } : {}}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            What is Cockatoo?
+            🔗 Born on ARC Chain
           </motion.span>
           <h2 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-6">
-            One Ecosystem.
+            One Ecosystem on ARC.
             <br />
             <span className="bg-gradient-to-r from-cockatoo-yellow to-cockatoo-pink bg-clip-text text-transparent">
               Infinite Possibilities.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            Cockatoo turns attention into action through payment, identity, and
-            community impact.
+            Cockatoo is the loudest decentralized ecosystem built natively on
+            ARC Chain — turning attention into action through payment,
+            identity, and community impact.
           </p>
         </motion.div>
 

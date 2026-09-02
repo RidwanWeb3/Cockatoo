@@ -138,19 +138,19 @@ export const TokenSection = () => {
             transition={{ duration: 0.5, type: "spring" }}
           >
             <span className="text-2xl">🪙</span>
-            $KATOO Token
+            $KATOO • ARC Chain Native
           </motion.div>
 
           <h2 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-6">
             The Fuel of the{" "}
             <span className="bg-gradient-to-r from-cockatoo-yellow to-cockatoo-orange bg-clip-text text-transparent">
-              Ecosystem
+              ARC Ecosystem
             </span>
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            $KATOO powers every transaction, reward, and donation in the
-            Cockatoo universe.
+            $KATOO is the native ARC-20 token powering every transaction,
+            reward, and donation across the Cockatoo universe on ARC Chain.
           </p>
         </motion.div>
 

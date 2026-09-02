@@ -304,7 +304,7 @@ export const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          Payment. Sponsorship. Sport. Charity.
+          The Loudest Ecosystem on ARC Chain.
         </motion.p>
 
         <motion.p
@@ -313,6 +313,8 @@ export const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
+          Payment. Sponsorship. Sport. Charity. — All native on ARC.
+          <br />
           "Silence never changed the world. Noise did."
         </motion.p>
 
@@ -350,7 +352,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.9 }}
         >
           <p className="font-mono text-sm text-foreground/60">
-            CA $Cockatoo: 0xB12b5B1a2e4b07106917637dc9f4a9d2A1D27777
+            CA $KATOO on ARC Chain: <span className="text-cockatoo-orange font-bold">COMING SOON</span>
           </p>
         </motion.div>
 
