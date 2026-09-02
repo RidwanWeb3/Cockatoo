@@ -171,7 +171,7 @@ export const CTASection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <motion.a
-            href="https://x.com/cockatoo_monad"
+            href="https://x.com/CockatoOfficial"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -181,7 +181,7 @@ export const CTASection = () => {
             </Button>
           </motion.a>
           <motion.a
-            href="https://radardex.pro"
+            href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -191,7 +191,7 @@ export const CTASection = () => {
             </Button>
           </motion.a>
           <motion.a
-            href="https://radardex.pro"
+            href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -210,7 +210,7 @@ export const CTASection = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <motion.a
-            href="https://x.com/cockatoo_monad"
+            href="https://x.com/CockatoOfficial"
             target="_blank"
             rel="noopener noreferrer"
             className="font-display font-bold text-foreground/60 hover:text-foreground transition-colors text-2xl"

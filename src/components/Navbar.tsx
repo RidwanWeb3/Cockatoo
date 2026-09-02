@@ -65,7 +65,7 @@ export const Navbar = () => {
               </motion.button>
             ))}
             <motion.a
-              href="https://radardex.pro"
+              href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-full font-display font-semibold text-cockatoo-dark bg-cockatoo-yellow/80 hover:bg-cockatoo-yellow transition-all flex items-center gap-1"
@@ -75,7 +75,7 @@ export const Navbar = () => {
               🚀 Buy on RadarDex
             </motion.a>
             <motion.a
-              href="https://radardex.pro"
+              href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-full font-display font-semibold text-cockatoo-white bg-cockatoo-dark/80 hover:bg-cockatoo-dark transition-all flex items-center gap-1"
@@ -139,7 +139,7 @@ export const Navbar = () => {
                 <hr className="border-cockatoo-yellow/20 my-2" />
                 
                 <motion.a
-                  href="https://radardex.pro"
+                  href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-3 rounded-xl font-display font-semibold text-cockatoo-dark bg-cockatoo-yellow/80 hover:bg-cockatoo-yellow transition-all flex items-center gap-2"
@@ -149,7 +149,7 @@ export const Navbar = () => {
                 </motion.a>
 
                 <motion.a
-                  href="https://radardex.pro"
+                  href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-3 rounded-xl font-display font-semibold text-cockatoo-white bg-cockatoo-dark/80 hover:bg-cockatoo-dark transition-all flex items-center gap-2"

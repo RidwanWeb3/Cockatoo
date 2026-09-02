@@ -352,7 +352,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.9 }}
         >
           <p className="font-mono text-sm text-foreground/60">
-            CA $KATOO on ARC Chain: <span className="text-cockatoo-orange font-bold">COMING SOON</span>
+            CA $KATOO on ARC Chain: <span className="text-cockatoo-orange font-bold font-mono">0xc8c0c2ea5f46c36b4be4d87a3f2d5d6e62491bbe</span>
           </p>
         </motion.div>
 

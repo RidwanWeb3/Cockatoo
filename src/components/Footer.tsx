@@ -10,15 +10,15 @@ const XTwitterIcon = () => (
 );
 
 const socialLinks = [
-  { icon: XTwitterIcon, label: "X/Twitter", href: "https://x.com/cockatoo_monad", color: "hover:bg-black hover:text-white" },
+  { icon: XTwitterIcon, label: "X/Twitter", href: "https://x.com/CockatoOfficial", color: "hover:bg-black hover:text-white" },
 ];
 
 const navLinks = [
   { label: "Token", id: "token" },
   { label: "NFTs", id: "nft" },
   { label: "Roadmap", id: "roadmap" },
-  { label: "Buy on RadarDex", href: "https://radardex.pro" },
-  { label: "Chart", href: "https://radardex.pro" },
+  { label: "Buy on RadarDex", href: "https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe" },
+  { label: "Chart", href: "https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe" },
 ];
 
 export const Footer = () => {
@@ -120,7 +120,7 @@ export const Footer = () => {
             © 2026 Cockatoo • Built on ARC Chain. All rights reserved.
           </p>
           <p className="text-muted-foreground/60 font-body text-xs mt-2">
-            Trade & Chart: <a href="https://radardex.pro" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">radardex.pro</a> | "Silence never changed the world. Noise did."
+            Trade & Chart: <a href="https://radardex.pro/#0xC8C0c2eA5F46C36b4bE4D87A3f2d5D6E62491BBe" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">radardex.pro</a> | "Silence never changed the world. Noise did."
           </p>
         </div>
       </div>
